@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/home-page-style.css">
+    <title>Spider man / Multiversos</title>
+    <script src="/assets/script/index.js"></script>
+</head>
+<body>
+    <nav class="s-menu">
+<ul>
+ <li class="s-menu__item">
+ <a href="/">Página inicial</a>
+ </li>
+ <li class="s-menu__item">
+    <a href="/pages/tobey-maguire/spiderman1.html">Tobey Maguire</a>
+    </li>
+    <li class="s-menu__item s-menu__icon">
+        <img src="/assets/imagens/icons/spider.svg" alt="spider-man Multiverso">
+    </li>
+    <li class="s-menu__item">
+        <a href="/pages/tom-holland/spiderman3.html">Tom Holland</a>
+        </li>
+        <li class="s-menu__item">
+            <a href="/pages/andrew-garfild/spiderman2.html">Andre Gafirld</a>
+            </li>
+</ul>
+    </nav>
+    <div class="s-container">
+    <div class="s-cards-carousel" style="transform: translateZ(-40vw) rotateY(0deg);">
+        
+        <a href="#" class="s-card" id="spider-man-01">
+            <img class="s-card__backgroud" src="/assets/imagens/pic-sm-bg-01.jpg">
+            <img class="s-card__image"src="/assets/imagens/spider-man-01.png">
+            <h2 class="s-card__title">Tobey Maguire</h2>
+            </a>
+            
+            <a href="#" class="s-card" id="spider-man-02">
+            <img class="s-card__backgroud" src="/assets/imagens/pic-sm-bg-02.jpg">
+            <img  class="s-card__image"src="/assets/imagens/spider-man-02.png">
+            <h2 class="s-card__title">Tom Holland</h2>
+            </a> 
+            
+            <a href="#" class="s-card" id="spider-man-03">
+                    <img class="s-card__backgroud" src="/assets/imagens/pic-sm-bg-03.jpg">
+                    <img class="s-card__image"src="/assets/imagens/spider-man-03.png">
+                    <h2 class="s-card__title">Andrew Garfild</h2>
+            </a>
+    </div>
+    </div>
+    <div class="s-controller">
+    <div id="1" onclick="selectCarouselItem(this)" class="s-controller__button  s-controller__button--active">
+        01
+    </div>
+    <div id="2" onclick="selectCarouselItem(this)" class="s-controller__button">
+        02
+    </div>
+    <div id="3" onclick="selectCarouselItem(this)" class="s-controller__button">
+        03
+    </div>
+    <div class="s-controller__line"></div>
+    </div>
+</body>
+</html>
